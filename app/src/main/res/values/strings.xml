@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Radio app</string>
+    <string name="select_genere">Select Music</string>
+    <string name="genre_explenation">In this Page the user can select a radio station Music.</string>
+    <string name="radio_explenation">On This Page the user can play on line radios from chosen genre. To play audio there is a  instance of MediaPlayer class. To allow internet connection an uses-permission is called in manifest file. When the user click on one of the given option, the play button turns into pause, status in the player changes to \"You are listening to:\", the name of the chosen radio is displayed and audio is played. Off course when functionality is added the status textView will display \"buffering\" or \"connecting to\" radio info while audio is preparing for streaming. When you press pause button, it changes to play button and should stop audio. On click of retrun icon in the player, intent to the Main Genre activity is created.</string>
+    <string name="close">close</string>
+    <string name="electronica">Romantic Radio</string>
+    <string name="disco">Night Club</string>
+    <string name="hiphop">HipHoop</string>
+    <string name="rock">RockStar Music</string>
+    <string name="pop">Pop Star Music</string>
+    <string name="electronica_label">Romantic Radio</string>
+    <string name="disco_label">Night Club</string>
+    <string name="hip_hop_label">HipHoop</string>
+    <string name="rock_label">Rockstar Music</string>
+    <string name="pop_label">PopStar Music</string>
+    <!-- Electronica Radios -->
+    <string name="rinsefm">Romantic station</string>
+    <string name="pulse">Beast Radio</string>
+    <string name="bbcradioone">Live Radio</string>
+    <string name="bassdrive">Klassic Radio</string>
+    <string name="proton">Old Radio</string>
+    <!-- Disco Radios -->
+    <string name="discopalace">Dance fest</string>
+    <string name="seventiesdisco">Dance  party</string>
+    <string name="maxitalo">Italy show</string>
+    <string name="funkstation">Our station</string>
+    <string name="euroeighties">Denmark 29</string>
+    <!-- Rock Radios -->
+    <string name="wzxr">song77</string>
+    <string name="klaq">rockstar</string>
+    <string name="swhrock">rocky</string>
+    <string name="planetrock">world rock</string>
+    <!-- Hip Hop Radios-->
+    <string name="hot">My Love</string>
+    <string name="power">Extreme Power</string>
+    <string name="wild">Yes 73</string>
+    <string name="jamn">fav12\'n</string>
+    <!-- Pop Radios-->
+    <string name="kiis">Form19</string>
+    <string name="zhundred">dancefm12</string>
+    <string name="siriusxm">yes90 </string>
+    <!-- Common to All Genre Activities Strings-->
+    <string name="noradio">No Radio Is Selected</string>
+    <string name="nowplaying">You are listening to:</string>
+    <string name="pause">Streaming is on pause!</string>
+</resources>
